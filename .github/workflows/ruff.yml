@@ -8,4 +8,4 @@ jobs:
       - uses: astral-sh/ruff-action@v1
         with:
           src: "./src/ezmetafetch"
-          args: "--config pyproject.toml --fix"
+          args: "check --config pyproject.toml --fix"
