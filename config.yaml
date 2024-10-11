@@ -1,0 +1,14 @@
+http:
+  min_timeout: 1
+  max_timeout: 2
+  retry_on: [429]
+  debug: false
+
+search:
+  max_etries: 3
+  terms_per_request: 10
+  ids_per_request: 100
+
+fetch:
+  max_retries: 5
+  ids_per_request: 100
