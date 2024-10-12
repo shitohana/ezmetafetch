@@ -1,5 +1,5 @@
 [project]
-name = "parser-final"
+name = "ezmetafetch"
 version = "0.1.0"
 description = "Simple tool for downloading metadata of EntrezAPI entries"
 readme = "README.md"
