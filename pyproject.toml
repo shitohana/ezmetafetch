@@ -3,6 +3,19 @@ name = "ezmetafetch"
 version = "0.1.0"
 description = "Simple tool for downloading metadata of EntrezAPI entries"
 readme = "README.md"
+authors = [
+  {name = "Konstantin Y", email = "kyudytskiy@gmail.com"},
+]
+license = {text = "MIT License"}
+keywords = ["entrez", "ncbi", "metadata", "download"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
 requires-python = ">=3.11"
 dependencies = [
     "aiohttp-retry>=2.8.0",
@@ -12,6 +25,15 @@ dependencies = [
     "pyyaml>=6.0.0",
     "xmltodict>=0.14.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/shitohana/ezmetafetch"
+Documentation = "https://github.com/shitohana/ezmetafetch"
+Issues = "https://github.com/shitohana/ezmetafetch/issues"
+
+[project.scripts]
+ezmetafetch = "ezmetafetch.run:main"
+
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
