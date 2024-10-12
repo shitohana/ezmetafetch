@@ -4,9 +4,7 @@ Simple tool for downloading metadata of EntrezAPI entries.
 
 # Installation
 
-EzMetaFetch can be either installed from PyPI:
-
-Or from GitHub release:
+EzMetaFetch can be installed from GitHub release:
 
 ```commandline
 pip install ezmetafetch-0.1.0-py3-none-any.whl
