@@ -3,9 +3,8 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(
     prog="EzMetaFetch",
-    description="TODO",
+    description="Simple tool for downloading metadata of EntrezAPI entries.",
     add_help=True,
-    epilog="TODO (Output dir file structure.)",
 )
 
 

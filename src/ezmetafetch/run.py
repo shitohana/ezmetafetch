@@ -43,7 +43,3 @@ def main():
         df.to_csv(model.output / "fetch_result.tsv", sep="\t", index=False)
             
     asyncio.run(body())
-    
-
-if __name__ == "__main__":
-    main()
